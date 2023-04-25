@@ -39,7 +39,7 @@ Return 0
 
 Stop
 
-## Student details for 10 students
+## 2.Student details for 10 students
 This program reads information about 10 students and stores it in an array of structs named "s".
 Each student has a name, roll number, and marks.
 it displays the details of 10 students at the same time and not just one students details
@@ -52,8 +52,8 @@ After reading the information of all 10 students, the program uses another for l
  ![Screenshot (291)](https://user-images.githubusercontent.com/125993593/234149489-8ee7934e-592c-4386-bb53-6d892f38ee98.png)
 
  ### Algorithm
-Start the program.
-Define a structure named "student" with three members: name, roll, and marks.
+  Start the program.
+  Define a structure named "student" with three members: name, roll, and marks.
 Define an array of 10 elements of type "student".
 Declare an integer variable "i".
 Display "Enter information of students:".
