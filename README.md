@@ -10,6 +10,8 @@ After the input is obtained, the program prints out the information that was ent
 The information displayed includes the student's name, roll number, and marks.
 
 Finally, the program returns 0 to indicate successful completion of the program.
+![Screenshot (290)](https://user-images.githubusercontent.com/125993593/234148294-66633a37-4843-4661-a35b-381edbc1d9d9.png)
+
 
 ### Algorithm
 Start
