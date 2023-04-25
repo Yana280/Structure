@@ -52,22 +52,22 @@ After reading the information of all 10 students, the program uses another for l
  ![Screenshot (291)](https://user-images.githubusercontent.com/125993593/234149489-8ee7934e-592c-4386-bb53-6d892f38ee98.png)
 
  ### Algorithm
-  Start the program.
-  Define a structure named "student" with three members: name, roll, and marks.
-Define an array of 10 elements of type "student".
-Declare an integer variable "i".
-Display "Enter information of students:".
-Use a for loop to input the information for each student in the array, with i starting from 0 and incrementing by 1 until i is less than 10.
-Set the roll number of the current student to i + 1.
-Display "For roll number [i+1]:".
-Prompt the user to input the name of the current student.
-Prompt the user to input the marks of the current student.
-Display a blank line.
-Use another for loop to display the information for each student in the array, with i starting from 0 and incrementing by 1 until i is less than 10.
-Display "Information for roll number [i+1]:".
-Display the name of the current student using the puts() function.
-Display the marks of the current student with one decimal place.
-End the program.
+1  Start the program.
+2  Define a structure named "student" with three members: name, roll, and marks.
+3  Define an array of 10 elements of type "student".
+4  Declare an integer variable "i".
+5  Display "Enter information of students:".
+6  Use a for loop to input the information for each student in the array, with i starting from 0 and incrementing by 1 until i is less than 10.
+7  Set the roll number of the current student to i + 1.
+8  Display "For roll number [i+1]:".
+9  Prompt the user to input the name of the current student.
+10  Prompt the user to input the marks of the current student.
+11  Display a blank line.
+12  Use another for loop to display the information for each student in the array, with i starting from 0 and incrementing by 1 until i is less than 10.
+13  Display "Information for roll number [i+1]:".
+14  Display the name of the current student using the puts() function.
+15  Display the marks of the current student with one decimal place.
+16  End the program.
  
 
 
