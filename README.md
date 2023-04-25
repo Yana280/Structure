@@ -53,20 +53,35 @@ After reading the information of all 10 students, the program uses another for l
 
  ### Algorithm
 1  Start the program.
+
 2  Define a structure named "student" with three members: name, roll, and marks.
+
 3  Define an array of 10 elements of type "student".
+
 4  Declare an integer variable "i".
+
 5  Display "Enter information of students:".
+
 6  Use a for loop to input the information for each student in the array, with i starting from 0 and incrementing by 1 until i is less than 10.
+
 7  Set the roll number of the current student to i + 1.
+
 8  Display "For roll number [i+1]:".
+
 9  Prompt the user to input the name of the current student.
+
 10  Prompt the user to input the marks of the current student.
+
 11  Display a blank line.
+
 12  Use another for loop to display the information for each student in the array, with i starting from 0 and incrementing by 1 until i is less than 10.
+
 13  Display "Information for roll number [i+1]:".
+
 14  Display the name of the current student using the puts() function.
+
 15  Display the marks of the current student with one decimal place.
+
 16  End the program.
  
 
