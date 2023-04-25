@@ -39,3 +39,35 @@ Return 0
 
 Stop
 
+## Student details for 10 students
+This program reads information about 10 students and stores it in an array of structs named "s".
+Each student has a name, roll number, and marks.
+it displays the details of 10 students at the same time and not just one students details
+In the for loop, the roll number is initialized and then the program prompts the user to enter the name and marks of the student.
+The scanf function is used to read the name and marks entered by the user and store them in the appropriate fields of the current struct in the array.
+
+After reading the information of all 10 students, the program uses another for loop to display the information of each student on the console. The printf function is used to display the roll number, name, and marks of each student.
+
+ puts function is used to display the name of each student instead of printf because it is a string and contains spaces that would be truncated if printf is used.
+ ![Screenshot (291)](https://user-images.githubusercontent.com/125993593/234149489-8ee7934e-592c-4386-bb53-6d892f38ee98.png)
+
+ ### Algorithm
+Start the program.
+Define a structure named "student" with three members: name, roll, and marks.
+Define an array of 10 elements of type "student".
+Declare an integer variable "i".
+Display "Enter information of students:".
+Use a for loop to input the information for each student in the array, with i starting from 0 and incrementing by 1 until i is less than 10.
+Set the roll number of the current student to i + 1.
+Display "For roll number [i+1]:".
+Prompt the user to input the name of the current student.
+Prompt the user to input the marks of the current student.
+Display a blank line.
+Use another for loop to display the information for each student in the array, with i starting from 0 and incrementing by 1 until i is less than 10.
+Display "Information for roll number [i+1]:".
+Display the name of the current student using the puts() function.
+Display the marks of the current student with one decimal place.
+End the program.
+ 
+
+
